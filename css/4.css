@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+#recommended body {
+    font-family: "Kanit", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 16px;
+}
+
+#recommended element.style {
+    width: 280px;
+}
+
+#recommended a {
+    color: #635c5c;
+}
+
+#recommended h1 a,
+#recommended h2 a,
+#recommended h3 a,
+#recommended h4 a,
+#recommended h5 a,
+#recommended h6 a {
+    color: inherit;
+}
+
+#recommended .section-tittle h2 {
+    font-size: 42px;
+    display: block;
+    color: #072366;
+    font-weight: 300;
+    text-transform: capitalize;
+    line-height: 1.4;
+}
+
+#recommended .mb-80 {
+    margin-bottom: 80px;
+}
+
+#recommended .text-center {
+    text-align: center!important;
+}
+
+#recommended .popular-directorya-area .properties {
+    margin: 0 15px;
+}
+
+#recommended .slick-initialized .slick-slide {
+    outline: 0;
+}
+
+#recommended .pb-20 {
+    padding-bottom: 20px;
+}
+
+#recommended .popular-directorya-area .properties__card {
+    box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+    border-radius: 10px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+#recommended .overlay1 {
+    position: relative;
+    z-index: 1;
+}
+
+#recommended .overlay1::before {
+    position: absolute;
+    content: "";
+    background-color: rgba(0, 1, 2, 0.5);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 0;
+    background-repeat: no-repeat;
+    border-radius: 10px 10px 0 0;
+}
+
+#recommended a,
+#recommended button {
+    color: #fff;
+    outline: medium none;
+}
+
+#recommended a,
+#recommended .button {
+    -webkit-transition: .3s;
+    -moz-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+#recommended .popular-directorya-area .properties__img img {
+    width: 100%;
+    height: 177px;
+    border-radius: 10px 10px 0 0;
+    position: relative;
+}
+
+#recommended .popular-directorya-area .properties__caption {
+    padding: 47px 18px 16px 22px;
+    border-bottom: 1px solid #ebeff4;
+}
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    #recommended .popular-directorya-area .properties__caption h3 {
+        font-size: 16px;
+    }
+}
+
+#recommended .popular-directorya-area .properties__caption h3 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+#recommended h1,
+#recommended h2,
+#recommended h3,
+#recommended h4,
+#recommended h5,
+#recommended h6 {
+    font-family: "Kanit", sans-serif;
+    color: #140C40;
+    margin-top: 0px;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: normal;
+}
+
+#recommended p {
+    font-family: "Kanit", sans-serif;
+    color: #10285d;
+    font-size: 16px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+#recommended p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+#recommended .popular-directorya-area .properties__footer {
+    padding: 19px 18px 20px 29px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+
+#recommended .popular-directorya-area .properties__footer .restaurant-name h3 {
+    display: inline-block;
+}
+
+#recommended .justify-content-between {
+    -ms-flex-pack: justify!important;
+    justify-content: space-between!important;
+}
+
+#recommended .align-items-center {
+    -ms-flex-align: center!important;
+    align-items: center!important;
+}
+
+#recommended .d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+#recommended .directory-active button.slick-next i {
+    color: #ddd;
+}
+
+#recommended .directory-active button.slick-next {
+    right: -58px;
+}
+
+#recommended .directory-active button.slick-prev i {
+    color: #ddd;
+}
+
+#recommended .directory-active button.slick-prev {
+    left: -58px;
+}
+
+#recommended .directory-active button.slick-arrow i {
+    font-size: 20px;
+    color: #ddd;
+}
+
+#recommended .directory-active button.slick-arrow {
+    position: absolute;
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    left: auto;
+    background: none;
+}
+
+#recommended a,
+#recommended button {
+    color: #fff;
+    outline: medium none;
+}
+
+#recommended .directory-active button.slick-prev {
+    left: -58px;
+}
+
+@media (min-width: 992px) {
+    #recommended.col-lg-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+#recommended .border-bottom {
+    border-bottom: 1px solid #ECEBF0;
+}
+
+#recommended .section-padding40 {
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+#recommended .fix {
+    overflow: hidden;
+}
+
+#recommended html {
+    font-size: 62.5%;
+}
+
+#recommended .destination .text .rate i {
+    font-size: 10px;
+    color: #f85959;
+}
+
+#recommended .rate i {
+    color: #f85959;
+    margin: 0 4px;
+}
+
+#recommended .h3,
+#recommended h3 {
+    font-size: 1.1rem;
+}
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon/icomoon.eot?6tt51o');
+    src: url('../fonts/icomoon/icomoon.eot?6tt51o#iefix') format('embedded-opentype'), url('../fonts/icomoon/icomoon.ttf?6tt51o') format('truetype'), url('../fonts/icomoon/icomoon.woff?6tt51o') format('woff'), url('../fonts/icomoon/icomoon.svg?6tt51o#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#recommended .icon-star:before {
+    content: "\f005";
+}
+
+#recommended .icon-star-o:before {
+    content: "\f006";
+}
+
+@font-face {
+    font-family: 'themify';
+    src: url('../fonts/themify/themify.eot?-fvbane');
+    src: url('../fonts/themify/themify.eot?#iefix-fvbane') format('embedded-opentype'), url('../fonts/themify/themify.woff?-fvbane') format('woff'), url('../fonts/themify/themify.ttf?-fvbane') format('truetype'), url('../fonts/themify/themify.svg?-fvbane#themify') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="ti-"],
+[class*=" ti-"] {
+    font-family: 'themify';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#recommended .ti-angle-left:before {
+    content: "\e64a";
+}
+
+#recommended .ti-angle-right:before {
+    content: "\e649";
+}
+
+#recommended .slick-slider {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+#recommended .slick-list {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#recommended .slick-list:focus {
+    outline: none;
+}
+
+#recommended .slick-list.dragging {
+    cursor: pointer;
+    cursor: hand;
+}
+
+#recommended .slick-slider .slick-track,
+#recommended .slick-slider .slick-list {
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+#recommended .slick-track {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#recommended .slick-track:before,
+#recommended .slick-track:after {
+    display: table;
+    content: '';
+}
+
+#recommended .slick-track:after {
+    clear: both;
+}
+
+#recommended .slick-loading .slick-track {
+    visibility: hidden;
+}
+
+#recommended .slick-slide {
+    display: none;
+    float: left;
+    /* height: 100%; */
+    min-height: 1px;
+}
+
+[dir='rtl'] .slick-slide {
+    float: right;
+}
+
+#recommended .slick-slide img {
+    display: block;
+}
+
+#recommended .slick-slide.slick-loading img {
+    display: none;
+}
+
+#recommended .slick-slide.dragging img {
+    pointer-events: none;
+}
+
+#recommended .slick-initialized .slick-slide {
+    display: block;
+}
+
+#recommended .slick-loading .slick-slide {
+    visibility: hidden;
+}
+
+#recommended .slick-vertical .slick-slide {
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+
+#recommended .slick-arrow.slick-hidden {
+    display: none;
+}
